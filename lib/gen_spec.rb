@@ -1,5 +1,5 @@
 require "gen_spec/version"
-require "gen_spec/types"
+require File.join(File.dirname(__FILE__), 'gen_spec', 'types')
 require "active_support/inflector"
 
 module GenSpec
